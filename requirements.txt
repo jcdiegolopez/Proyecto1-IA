@@ -7,3 +7,6 @@ langchain
 matplotlib
 wordcloud
 tavily-python
+langchain-tavily
+langchain-community
+langchain-openai
