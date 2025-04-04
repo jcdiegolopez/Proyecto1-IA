@@ -1,0 +1,9 @@
+
+streamlit
+requests
+openai
+python-dotenv
+langchain
+matplotlib
+wordcloud
+tavily-python

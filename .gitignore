@@ -1,0 +1,35 @@
+# Entorno virtual de Python
+venv/
+.env/
+
+# Archivos de configuración sensible (claves API)
+.env
+*.env
+secrets.py
+config.py
+
+# Cache y datos de Streamlit
+.streamlit/
+
+# Archivos generados por Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Librerías y builds
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
