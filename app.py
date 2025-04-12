@@ -17,7 +17,10 @@ if tema:
     # 1. Búsqueda con Tavily
     resultados = buscar_informacion(tema)
     st.subheader("📄 Resultados Encontrados")
-    st.write(resultados)
+    for resultado in resultados:
+        st.write(f"**{resultado['titulo']}**")
+        st.write(resultado['contenido'])
+        st.write(f"[Leer más]({resultado['enlace']})")
     
     # 2. Resumen con OpenAI
     st.subheader("✍️ Resumen Automático")
